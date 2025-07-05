@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Raleway:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Unbounded", sans-serif;
+}
+
+body, html {
+  font-size: 0.0520833333vw;
+}
+
+.container {
+  width: 1636rem;
+  margin: 0 auto;
+}
+
+.galss-block {
+  -webkit-backdrop-filter: blur(48rem);
+          backdrop-filter: blur(48rem);
+  box-shadow: inset 0 0 68rem 0 rgba(255, 255, 255, 0.05), inset 0 4rem 4rem 0 rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 24rem;
+}
+
+.header {
+  padding-top: 40rem;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo {
+  width: 64rem;
+  height: 63rem;
+  position: relative;
+}
+.header .logo img {
+  width: 100%;
+  height: 100%;
+}
+.header .langs {
+  display: flex;
+  align-items: center;
+  gap: 27rem;
+}
+.header .langs__item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #203f30;
+}
+.header .header-nav {
+  display: flex;
+  align-items: center;
+  gap: 35rem;
+}
+.header .header-nav__item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18rem;
+  color: #203f30;
+  position: relative;
+}
+.header .header-nav__item::after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 0;
+  height: 1rem;
+  background: #203f30;
+  transition: all 0.4s ease;
+  position: absolute;
+  margin-top: 3rem;
+}
+.header .header-nav__item:hover::after {
+  max-width: 100%;
+}
+.header .header-nav__item.active::after {
+  max-width: 100%;
+}
+.header .header-login {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #203f30;
+  padding: 18rem 32rem;
+  border: 1rem solid #203f30;
+  border-radius: 30rem;
+}
+
+.hero {
+  margin-top: 45rem;
+}
+.hero .container {
+  background: url(../media/bgs/hero.png) 50% 50%/100% 100% no-repeat;
+  position: relative;
+  padding: 60rem;
+}
+.hero h1 {
+  font-weight: 400;
+  font-size: 40rem;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 60rem;
+  right: 60rem;
+  max-width: 630rem;
+}
+.hero .galss-block {
+  padding: 50rem;
+}
+.hero .galss-block:nth-child(2) {
+  max-width: 600rem;
+  margin-bottom: 295rem;
+}
+.hero .galss-block:nth-child(3) {
+  max-width: 750rem;
+}
+.hero h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 36rem;
+  color: #fff;
+}
+.hero h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #fff;
+}
+
+.section-heading {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-size: 48rem;
+  text-transform: uppercase;
+}
+
+.green-button {
+  border-radius: 30px;
+  padding: 18px 51px;
+  background: #203f30;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+.kratko {
+  margin-top: 120rem;
+}
+.kratko .container {
+  display: flex;
+  gap: 250rem;
+  justify-content: space-between;
+}
+.kratko .section-heading {
+  color: #203f30;
+  max-width: 610rem;
+}
+.kratko .kratko-img {
+  margin-top: 120rem;
+  width: 600rem;
+}
+.kratko .kratko-r {
+  max-width: 660rem;
+}
+.kratko .kratko-r p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 36rem;
+  color: #203f30;
+}
+.kratko .kratko-r p:first-child {
+  position: relative;
+  margin-bottom: 55rem;
+}
+.kratko .kratko-r p:first-child::after {
+  margin-top: 55rem;
+  content: "";
+  display: block;
+  height: 1rem;
+  background: #203f30;
+  width: 440rem;
+}
+.kratko .green-button {
+  margin-top: 100rem;
+}
+
+footer {
+  padding-top: 80rem;
+  border-top: 1px solid #203f30;
+  margin-top: 120rem;
+  padding-bottom: 120rem;
+}
+footer .footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-row.pol {
+  margin-top: 80rem;
+  justify-content: flex-start;
+  gap: 75rem;
+}
+footer .footer-row.pol:last-child {
+  margin-top: 40rem;
+}
+footer .footer-row.pol a {
+  font-weight: 400;
+  font-size: 16rem;
+  color: #9c9c9c;
+}
+footer .footer-item {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 40rem;
+}
+footer .footer-item a {
+  gap: 20rem;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18rem;
+  color: #203f30;
+}
+footer .footer-item a svg {
+  max-width: 20rem;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

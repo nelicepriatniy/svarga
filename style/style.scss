@@ -152,12 +152,12 @@ body, html {
 }
 
 .green-button {
-    border-radius: 30px;
-    padding: 18px 51px;
+    border-radius: 30rem;
+    padding: 18rem 51rem;
     background: #203f30;
     font-family: $second-family;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 24rem;
     color: #fff;
 }
 
@@ -207,7 +207,7 @@ body, html {
 
 footer {
     padding-top: 80rem;
-    border-top: 1px solid #203f30;
+    border-top: 1rem solid #203f30;
     margin-top: 120rem;
     padding-bottom: 120rem;
     .container {
@@ -248,4 +248,289 @@ footer {
         }
     }
 
+}
+
+.about-hero {
+    margin-top: 60rem;
+    .container {
+    }
+    .about-heading {
+        font-weight: 400;
+        font-size: 123rem;
+        text-transform: uppercase;
+        color: #203f30;
+        span {
+            font-family: "Mea Culpa", sans-serif;
+        }
+    }
+    .about-hero-wrapper {
+        margin-top: 60rem;
+        display: flex;
+        gap: 117rem;
+        justify-content: space-between;
+        img {
+            width: 600rem;
+
+        }
+    }
+    .about-hero-coll {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 525rem;
+        flex-shrink: 0;
+        max-width: 440rem;
+    }
+    .about-hero-item {
+        display: flex;
+        flex-direction: column;
+        gap: 40rem;
+    }
+    .about-hero-item__heading {
+        font-family: $second-family;
+        font-weight: 400;
+        font-size: 36rem;
+        color: #203f30;
+    }
+    .about-heor-item__text {
+        font-weight: 400;
+        font-size: 32rem;
+        color: #203f30;
+    }
+}
+
+.znakomstvo {
+    margin-top: 120rem;
+    h2 {
+        font-weight: 400;
+        font-size: 64rem;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .container {
+        padding: 80rem;
+        border-radius: 50rem;
+        background: #203f30;
+        width: 1795rem;
+    }
+    .wrapper {
+        display: flex;
+        gap: 300rem;
+        margin-top: 80rem;
+        svg {
+            width: 37rem;
+            top: 0;
+            position: absolute;
+            left: -40rem;
+            transform: translateX(-100%);
+        }
+        img {
+            border-radius: 50rem;
+            width: 359rem;
+            height: 539rem;
+        }
+    }
+    .texts {
+        position: relative;
+        max-width: 720rem;
+        p {
+            font-family: $second-family;
+            font-weight: 400;
+            font-size: 40rem;
+            color: #fff;
+            &:first-child {
+                margin-bottom: 40rem;
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 560rem;
+                    height: 1rem;
+                    background: #fff;
+                    margin-top: 40rem;
+                }
+            }
+        }
+    }
+}
+
+.text-img {
+    margin-top: 120rem;
+    .container {
+        display: flex;
+        align-items: center;
+        width: 1795rem;
+        justify-content: space-between;
+        gap: 75rem;
+        padding-right: 80rem;
+    }
+    .text {
+        background: #203f30;
+        border-radius: 50rem;
+        padding: 80rem;
+        display: flex;
+        flex-direction: column;
+        gap: 80rem;
+        p, li {
+            font-family: $second-family;
+            font-weight: 400;
+            font-size: 40rem;
+            color: #fff;
+        }
+        b {
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 40rem;
+            color: #fff;
+        }
+    }
+    img {
+        border-radius: 50%;
+        width: 600rem;
+        flex-shrink: 0;
+    }
+}
+
+.text-img-text {
+    margin-top: 120rem;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 120rem;
+    }
+    .texts {
+        h2 {
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 64rem;
+            text-transform: uppercase;
+            color: #203f30;
+        }
+        p, li {
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 36rem;
+            color: #203f30;
+        }
+        p {
+            margin-top: 80rem;
+        }
+        ul {
+            margin-top: 80rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+    }
+    .img {
+        border-radius: 50rem;
+        background: #203f30;
+        overflow: hidden;
+        max-width: 690rem;
+        height: fit-content;
+        img {
+            width: 100%;
+        }
+        p {
+            padding: 60rem 70rem;
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 32rem;
+            color: #fff;
+        }
+    }
+}
+
+.zapis {
+    margin-top: 120rem;
+    h2 {
+        font-weight: 400;
+        font-size: 64rem;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .container {
+        border-radius: 50rem;
+        background: #203f30;
+        padding: 80rem;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 285rem;
+        margin-top: 80rem;
+    }
+    img {
+        max-width: 645rem;
+        width: 100%;
+    }
+    .texts {
+    }
+    a {
+        margin-top: 80rem;
+        display: flex;
+        align-items: center;
+        gap: 36rem;
+        span {
+            font-family: $second-family;
+            font-weight: 400;
+            font-size: 24rem;
+            color: #203f30;
+            border-radius: 30rem;
+            background: #fff;
+            padding: 20rem 70rem;
+        }
+        svg {
+            width: 40rem;
+        }
+    }
+    p {
+        font-family: $second-family;
+        font-weight: 400;
+        font-size: 40rem;
+        color: #fff;
+    }
+}
+
+.nagradi {
+    margin-top: 60rem;
+    .contianer {
+    }
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            font-weight: 400;
+            font-size: 64rem;
+            text-transform: uppercase;
+            color: #203f30;
+        }
+    }
+    .arrows {
+        display: flex;
+        align-items: center;
+        gap: 55rem;
+    }
+    .nagrady-arrow {
+        width: 40rem;
+        cursor: pointer;
+        &.next {
+            transform: rotate(180deg);
+        }
+        &.prev {
+        }
+    }
+    .swiper {
+    }
+    .nagradi-slider {
+        margin-top: 80rem;
+    }
+    .swiper-wrapper {
+    }
+    .swiper-slide {
+        img {
+            width: 100%;
+        }
+    }
 }

@@ -26,3 +26,15 @@ if(curses.length > 0) {
   })
 }
 
+//вопросы
+
+const questions = document.querySelectorAll('.faq-wrapper .item')
+
+if(questions.length > 0) {
+  questions.forEach((el)=>{
+    el.onclick = ()=>{
+      el.classList.toggle('active')
+    }
+  })
+}
+

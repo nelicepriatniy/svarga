@@ -1331,6 +1331,17 @@ footer .footer-item a svg {
   margin-top: 80rem;
 }
 
+.blog .bliz.reg .right {
+  padding: 65rem 50rem 65rem 120rem;
+}
+.blog .bliz.reg a {
+  margin-top: 40rem;
+}
+.blog .bliz .left {
+  padding: 50rem;
+  max-width: 845rem;
+}
+
 .mar-list {
   margin-top: 50rem;
 }
@@ -1459,4 +1470,255 @@ footer .footer-item a svg {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.arhiv .bottom-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.arhiv .bottom-wrapper a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #fff;
+  border: 1rem solid #fff;
+  border-radius: 30rem;
+  padding: 20rem 30rem;
+  position: relative;
+  z-index: 2;
+}
+.arhiv.podpis h2 {
+  max-width: 780rem;
+  font-size: 64rem;
+  padding: 40rem;
+}
+
+.blog .hero .container {
+  display: flex;
+  background: #203f30;
+  position: relative;
+  padding: 0;
+  border-radius: 50rem;
+  overflow: hidden;
+  flex-direction: row;
+}
+.blog .hero .container img {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+.blog .hero .right {
+  padding: 0 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog .hero h1, .blog .hero h2 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-size: 60rem;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  top: auto;
+  right: auto;
+  max-width: 100%;
+  margin-bottom: 120rem;
+}
+.blog .hero p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #fff;
+  margin-bottom: 40rem;
+}
+.blog .hero a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #fff;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20rem 30rem;
+  border: 1rem solid #fff;
+  border-radius: 30rem;
+  width: fit-content;
+}
+.blog .hero.btm a {
+  background: #fff;
+  color: #203f30;
+}
+
+.main {
+  margin-top: 80rem;
+}
+.main .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 80rem;
+}
+.main h1 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-size: 64rem;
+  text-transform: uppercase;
+  color: #203f30;
+}
+.main p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 36rem;
+  color: #203f30;
+}
+.main p.bold {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-size: 32rem;
+  color: #203f30;
+}
+.main .faq-wrapper {
+  width: 1120rem;
+  margin: auto;
+  margin-top: 120rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50rem;
+}
+.main .faq-wrapper .item {
+  border-bottom: 1rem solid #203f30;
+}
+.main .faq-wrapper .item.active .btm {
+  padding-bottom: 30rem;
+  max-height: 300rem;
+}
+.main .faq-wrapper .top {
+  display: flex;
+  align-items: center;
+  gap: 40rem;
+  justify-content: space-between;
+  padding-bottom: 30rem;
+}
+.main .faq-wrapper .top h3 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-size: 32rem;
+  color: #203f30;
+}
+.main .faq-wrapper .open-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  height: 30rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.main .faq-wrapper .open-btn::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2rem;
+  background: #203f30;
+  position: absolute;
+}
+.main .faq-wrapper .open-btn::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2rem;
+  background: #203f30;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.main .faq-wrapper .btm {
+  max-height: 0;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #203f30;
+}
+
+.form {
+  margin-top: 80rem;
+}
+.form .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form form {
+  max-width: 856rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form label {
+  margin-top: 60rem;
+  width: 100%;
+  display: block;
+}
+.form label:first-child {
+  margin-top: 0;
+}
+.form label p {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #203f30;
+  margin-bottom: 20rem;
+}
+.form label input {
+  width: 100%;
+  border: 1rem solid #203f30;
+  border-radius: 20rem;
+  padding: 2rem;
+  height: 80rem;
+  padding: 0 20rem;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #203f30;
+}
+.form .send {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  color: #203f30;
+  padding: 20rem 30rem;
+  border: 1rem solid #203f30;
+  border-radius: 30rem;
+  margin-top: 80rem;
+  background: none;
+}
+
+.swaz {
+  margin-top: 80rem;
+}
+.swaz .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.swaz h2 {
+  font-weight: 400;
+  font-size: 64rem;
+  text-transform: uppercase;
+  color: #203f30;
+}
+.swaz .seti {
+  display: flex;
+  align-items: center;
+  gap: 45rem;
+}
+.swaz a {
+  font-weight: 400;
+  font-size: 32rem;
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #203f30;
 }/*# sourceMappingURL=style.css.map */

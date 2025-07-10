@@ -1593,6 +1593,9 @@ footer .footer-item a svg {
   padding-bottom: 30rem;
   max-height: 300rem;
 }
+.main .faq-wrapper .item.active .open-btn::before {
+  transform: rotate(0);
+}
 .main .faq-wrapper .top {
   display: flex;
   align-items: center;
@@ -1631,6 +1634,7 @@ footer .footer-item a svg {
   background: #203f30;
   position: absolute;
   transform: rotate(90deg);
+  transition: all 0.4s ease;
 }
 .main .faq-wrapper .btm {
   max-height: 0;

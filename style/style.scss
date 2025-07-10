@@ -1657,6 +1657,11 @@ footer {
                     padding-bottom: 30rem;
                     max-height: 300rem;
                 }
+                .open-btn {
+                    &::before {
+                        transform: rotate(0);
+                    }
+                }
             }
         }
         .top {
@@ -1696,6 +1701,7 @@ footer {
                 background: #203f30;
                 position: absolute;
                 transform: rotate(90deg);
+                transition: all .4s ease;
             }
         }
         .btm {

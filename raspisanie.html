@@ -22,19 +22,19 @@
                 <a href="" class="langs__item">RU</a>
             </div>
             <nav class="header-nav">
-                <a href="./index.html" class="header-nav__item">
+                <a href="./index.html" class="header-nav__item active">
                     Главная
                 </a>
-                <a href="./about.html" class="header-nav__item ">
+                <a href="./about.html" class="header-nav__item">
                     О мастере
                 </a>
-                <a href="./curs.html" class="header-nav__item">
+                <a href="/curs.html" class="header-nav__item">
                     Практики и курсы
                 </a>
-                <a href="./results.html" class="header-nav__item ">
+                <a href="./results.html" class="header-nav__item">
                     Результаты
                 </a>
-                <a href="./raspisanie.html" class="header-nav__item active">
+                <a href="./raspisanie.html" class="header-nav__item">
                     Расписание и мероприятия
                 </a>
                 <a href="./blog.html" class="header-nav__item">
@@ -54,15 +54,62 @@
             <a href="./login.html" class="header-login">
                 войти
             </a>
+            <div class="mob header-burger headerMenuOpen">
+
+            </div>
         </div>
     </header>
+    
+    <div class="mob-head-menu mob">
+        <div class="top">
+            <img src="./media/icons/logo.png" alt="" class="logo">
+            <div class="mob header-burger headerMenuClose">
+
+            </div>
+        </div>
+        <nav class="header-nav">
+            <a href="./index.html" class="header-nav__item active headerMenuClose">
+                Главная
+            </a>
+            <a href="./about.html" class="header-nav__item headerMenuClose">
+                О мастере
+            </a>
+            <a href="/curs.html" class="header-nav__item headerMenuClose">
+                Практики и курсы
+            </a>
+            <a href="./results.html" class="header-nav__item headerMenuClose">
+                Результаты
+            </a>
+            <a href="./raspisanie.html" class="header-nav__item headerMenuClose">
+                Расписание и мероприятия
+            </a>
+            <a href="./blog.html" class="header-nav__item headerMenuClose">
+                Блог
+            </a>
+            <a href="./club.html" class="header-nav__item headerMenuClose">
+                Клуб
+            </a>
+            <a href="./contacts.html" class="header-nav__item headerMenuClose">
+                Контакты
+            </a>
+            <a href="./faq.html" class="header-nav__item headerMenuClose">
+                FAQ
+            </a>
+            <a href="./faq.html" class="header-nav__item login headerMenuClose">
+                <span>войти</span>
+            </a>
+        </nav>
+    </div>
 
     <main>
         <section class="hero">
             <div class="container">
                 <h1>Расписание 
 и мероприятия</h1>
-                <img src="./media/bgs/results.png" alt="">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="./media/bgs/results.png">
+                    <img src="./media/bgs/mob/results.png" alt="">
+                </picture>
             </div>
         </section>
         <section class="bliz">
@@ -136,7 +183,10 @@
                     В архиве — фото, видео и отзывы участников, которые делятся своими трансформациями.</p>
                     <a href="">Смотреть архив мероприятий</a>
                 </div>
-                <img src="./media/bgs/arhiv.png" alt="">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="./media/bgs/arhiv.png">
+                    <img src="./media/bgs/mob/arhiv.png" alt="">
+                </picture>
             </div>
         </section>
     </main>

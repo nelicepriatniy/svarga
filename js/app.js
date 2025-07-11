@@ -1,10 +1,19 @@
 const swiper = new Swiper('.nagradi-slider', {
   speed: 400,
-  spaceBetween: 70,
-  slidesPerView: 2,
   navigation: {
     nextEl: '.nagrady-arrow.next',
     prevEl: '.nagrady-arrow.prev'
+  },
+  breackpoints: {
+    320: {
+      spaceBetween: 10,
+      slidesPerView: 1.2,
+    },
+    1024: {
+      spaceBetween: 70,
+      slidesPerView: 2,
+
+    }
   }
 });
 
@@ -38,3 +47,23 @@ if(questions.length > 0) {
   })
 }
 
+//mob menu
+
+if(window.innerWidth < 1024) {
+  const mobMenu = document.querySelector('.mob-head-menu')
+  if(mobMenu) {
+    const mobMenuOpen = document.querySelectorAll('.headerMenuOpen');
+    const mobMenuClose = document.querySelectorAll('.headerMenuClose');
+
+    mobMenuOpen.forEach((el)=>{
+      el.onclick = ()=>{
+        mobMenu.classList.add('active')
+      }
+    })
+    mobMenuClose.forEach((el)=>{
+      el.onclick = ()=>{
+        mobMenu.classList.remove('active')
+      }
+    })
+  }
+}

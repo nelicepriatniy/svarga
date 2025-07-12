@@ -139,10 +139,10 @@ body, html {
         padding: 50rem;
         z-index: 2;
         position: relative;
-        &:nth-child(2) {
+        &:nth-child(3) {
             max-width: 600rem;
         }
-        &:nth-child(3) {
+        &:nth-child(4) {
             max-width: 750rem;
         }
     }

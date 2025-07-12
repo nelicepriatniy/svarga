@@ -131,10 +131,10 @@ body, html {
   z-index: 2;
   position: relative;
 }
-.hero .galss-block:nth-child(2) {
+.hero .galss-block:nth-child(3) {
   max-width: 600rem;
 }
-.hero .galss-block:nth-child(3) {
+.hero .galss-block:nth-child(4) {
   max-width: 750rem;
 }
 .hero h2 {

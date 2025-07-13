@@ -2105,23 +2105,19 @@ footer .footer-item a svg {
   flex-direction: column;
   align-items: center;
 }
-.buy-store .item-status.active p {
+.buy-store .item-status p {
+  border-radius: 30rem;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16rem;
   color: #fff;
   padding: 10rem 20rem;
+}
+.buy-store .item-status.active p {
   background: #0fb333;
-  border-radius: 30rem;
 }
 .buy-store .item-status.zaver p {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 16rem;
-  color: #fff;
-  padding: 10rem 20rem;
   background: #9c9c9c;
-  border-radius: 30rem;
 }
 .buy-store .ending p {
   font-family: "Raleway", sans-serif;
@@ -3278,5 +3274,317 @@ footer .footer-item a svg {
     padding: 15rem 30rem;
     text-align: center;
     justify-content: center;
+  }
+  .main h1 {
+    font-size: 24rem;
+  }
+  .main .wrapper {
+    margin-top: 30rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main p {
+    font-size: 16rem;
+  }
+  .main p.bold {
+    margin-top: 30rem;
+    font-size: 16rem;
+  }
+  .main .faq-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 40rem;
+  }
+  .main .faq-wrapper .item.actie .btm {
+    padding-bottom: 20rem;
+  }
+  .main .faq-wrapper .top {
+    padding-bottom: 20rem;
+  }
+  .main .faq-wrapper .top h3 {
+    font-size: 16rem;
+  }
+  .main .faq-wrapper .open-btn {
+    width: 20rem;
+    height: 20rem;
+    flex-shrink: 0;
+  }
+  .main .faq-wrapper .btm {
+    font-size: 16rem;
+  }
+  .form {
+    margin-top: 30rem;
+  }
+  .form .send {
+    margin-top: 40rem;
+    font-size: 16rem;
+    padding: 15rem 30rem;
+  }
+  .form label {
+    margin-top: 20rem;
+  }
+  .form label p {
+    font-size: 16rem;
+    margin-bottom: 15rem;
+  }
+  .form label input {
+    height: 48rem;
+  }
+  .swaz {
+    margin-top: 30rem;
+  }
+  .swaz h2 {
+    font-size: 24rem;
+    margin-bottom: 40rem;
+  }
+  .swaz .container {
+    flex-direction: column;
+  }
+  .swaz .seti {
+    flex-direction: column;
+    gap: 30rem;
+  }
+  .swaz .seti a {
+    font-size: 20rem;
+  }
+  .refuntdone .login-block .heading {
+    font-size: 16rem;
+  }
+  .login-block .sub-heading {
+    font-size: 16rem;
+    margin-bottom: 44rem;
+  }
+  .login-block .wrapper {
+    padding: 30rem;
+  }
+  .login-block .heading {
+    font-size: 24rem;
+    margin-bottom: 45rem;
+  }
+  .login-block .login-btm {
+    margin-top: 30rem;
+    flex-direction: column;
+    gap: 20rem;
+  }
+  .login-block .login-btm a {
+    text-align: center;
+    font-size: 12rem;
+  }
+  .login-block form label {
+    margin-bottom: 15rem;
+  }
+  .login-block form label p {
+    font-size: 16rem;
+    margin-bottom: 15rem;
+  }
+  .login-block form label input {
+    height: 48rem;
+    margin: 0;
+  }
+  .login-block form a, .login-block form button {
+    margin-top: 30rem;
+    font-size: 16rem;
+    padding: 8rem 30rem;
+  }
+  .preload-login p {
+    font-size: 20rem;
+  }
+  .dostup .dos-heading {
+    font-size: 24rem;
+    margin-bottom: 40rem;
+  }
+  .dostup .item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dostup .item .heading {
+    font-size: 16rem;
+    margin-bottom: 24rem;
+  }
+  .dostup .item .text {
+    font-size: 16rem;
+    margin-bottom: 24rem;
+  }
+  .dostup .item .item-r a {
+    font-size: 16rem;
+    padding: 8rem 30rem;
+  }
+  .main-single-kurs h1 {
+    font-size: 24rem;
+    margin-bottom: 40rem;
+  }
+  .main-single-kurs p {
+    font-size: 16rem;
+  }
+  .main-single-kurs a {
+    margin-top: 40rem;
+    font-size: 16rem;
+    padding: 8rem 32rem;
+  }
+  .single-kurs-item h1 {
+    font-size: 24rem;
+    margin-bottom: 40rem;
+  }
+  .single-kurs-item .wrapper {
+    gap: 20rem;
+  }
+  .single-kurs-item .item {
+    padding: 20rem;
+  }
+  .single-kurs-item .item .top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .single-kurs-item .item .heading {
+    font-size: 16rem;
+    margin-bottom: 20rem;
+  }
+  .single-kurs-item .item .date {
+    font-size: 16rem;
+  }
+  .single-kurs-item .item .buttom {
+    margin-top: 20rem;
+  }
+  .single-kurs-item .item .issee {
+    bottom: 20rem;
+    right: 20rem;
+    font-size: 14rem;
+    padding: 6rem 20rem;
+  }
+  .zanyatie h1 {
+    font-size: 20rem;
+    margin-bottom: 20rem;
+  }
+  .zanyatie .heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 80rem;
+  }
+  .zanyatie .date {
+    font-size: 16rem;
+  }
+  .zanyatie .top a {
+    font-size: 12rem;
+  }
+  .zanyatie .top p {
+    font-size: 10rem;
+  }
+  .zanyatie .video {
+    margin-top: 30rem;
+    position: relative;
+  }
+  .zanyatie .video svg {
+    width: 25rem;
+    height: 25rem;
+  }
+  .buy-store h1 {
+    font-size: 24rem;
+    margin-bottom: 40rem;
+  }
+  .buy-store .item {
+    flex-direction: column;
+  }
+  .buy-store .item-heading h2 {
+    font-size: 16rem;
+    margin-bottom: 20rem;
+  }
+  .buy-store .item-heading p {
+    font-size: 16rem;
+  }
+  .buy-store .item-period h2 {
+    font-size: 16rem;
+    margin-bottom: 20rem;
+  }
+  .buy-store .item-period p {
+    font-size: 16rem;
+  }
+  .buy-store .item-status {
+    align-items: flex-start;
+  }
+  .buy-store .item-status h2 {
+    font-size: 16rem;
+    margin-bottom: 20rem;
+  }
+  .buy-store .item-status p {
+    font-size: 14rem;
+    padding: 6rem 20rem;
+  }
+  .buy-store .ending {
+    align-items: flex-start;
+  }
+  .buy-store .ending h2 {
+    font-size: 16rem;
+    margin-bottom: 20rem;
+  }
+  .buy-store .ending p {
+    font-size: 16rem;
+  }
+  .buy-store .ending h2, .buy-store .ending p {
+    text-align: left;
+  }
+  .profile-main h1 {
+    font-size: 24rem;
+    margin-bottom: 24rem;
+  }
+  .profile-main .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+  }
+  .profile-main label p {
+    font-size: 14rem;
+  }
+  .profile-main label input {
+    height: 48rem;
+    font-size: 14rem;
+  }
+  .profile-main label:nth-child(1) {
+    order: 1;
+  }
+  .profile-main label:nth-child(2) {
+    order: 4;
+  }
+  .profile-main label:nth-child(3) {
+    order: 2;
+  }
+  .profile-main label:nth-child(4) {
+    order: 5;
+  }
+  .profile-main label:nth-child(5) {
+    order: 3;
+  }
+  .profile-main label:nth-child(6) {
+    order: 6;
+  }
+  .profile-main label:nth-child(8) {
+    order: 7;
+  }
+  .profile-main .avatar {
+    order: 8;
+    width: 100%;
+    position: relative;
+  }
+  .profile-main .avatar .l {
+    font-size: 16rem;
+    position: absolute;
+  }
+  .profile-main .avatar .r {
+    flex-flow: column-reverse;
+    margin-top: 10rem;
+    width: 100%;
+  }
+  .profile-main .avatar img {
+    margin-bottom: 30rem;
+  }
+  .profile-main .avatar .row a {
+    font-size: 16rem;
+  }
+  .profile-main .save {
+    justify-content: center;
+    margin-top: 40rem;
+  }
+  .profile-main .save a {
+    font-size: 16rem;
+    padding: 8rem 20rem;
   }
 }/*# sourceMappingURL=style.css.map */

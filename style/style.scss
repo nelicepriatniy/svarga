@@ -2189,26 +2189,23 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        &.active {
-            p {
+        p {
+                border-radius: 30rem;
                 font-family: $second-family;
                 font-weight: 400;
                 font-size: 16rem;
                 color: #fff;
                 padding: 10rem 20rem;
+
+        }
+        &.active {
+            p {
                 background: #0fb333;
-                border-radius: 30rem;
             }
         }
         &.zaver {
             p {
-                font-family: $second-family;
-                font-weight: 400;
-                font-size: 16rem;
-                color: #fff;
-                padding: 10rem 20rem;
                 background: #9c9c9c;
-                border-radius: 30rem;
             }
         }
     }
@@ -3477,5 +3474,392 @@ footer {
         padding: 15rem 30rem;
         text-align: center;
         justify-content: center;
+    }
+    .main {
+        h1 {
+            font-size: 24rem;
+        }
+        .container {
+        }
+        .wrapper {
+            margin-top: 30rem;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        p {
+            font-size: 16rem;
+            &.bold {
+                margin-top: 30rem;
+                font-size: 16rem;
+            }
+        }
+        .faq-wrapper {
+            width: 100%;
+            max-width: 100%;
+            margin-top: 40rem;
+            .item {
+                &.actie {
+                    .btm {
+                        padding-bottom: 20rem;
+                    }
+                }
+            }
+            .top {
+                padding-bottom: 20rem;
+                h3 {
+                    font-size: 16rem;
+                }
+            }
+            .open-btn {
+                width: 20rem;
+                height: 20rem;
+                flex-shrink: 0;
+            }
+            .btm {
+                font-size: 16rem;
+            }
+        }
+    }
+    .form {
+        margin-top: 30rem;
+        .container {
+        }
+        .text-input {
+        }
+        .send {
+            margin-top: 40rem;
+            font-size: 16rem;
+            padding: 15rem 30rem;
+        }
+        label {
+            margin-top: 20rem;
+            p {
+                font-size: 16rem;
+                margin-bottom: 15rem;
+            }
+            input {
+                height: 48rem;
+            }
+        }
+    }
+    .swaz {
+        margin-top: 30rem;
+        h2 {
+            font-size: 24rem;
+            margin-bottom: 40rem;
+        }
+        .container {
+            flex-direction: column;
+
+        }
+        .seti {
+            flex-direction: column;
+            gap: 30rem;
+            a {
+                font-size: 20rem;
+            }
+        }
+    }
+    .refuntdone {
+        .login-block {
+            .heading {
+                font-size: 16rem;
+            }
+        }
+    }
+    .login-block {
+        .sub-heading {
+            font-size: 16rem;
+            margin-bottom: 44rem;
+        }
+        .container {
+        }
+        .wrapper {
+            padding: 30rem;
+        }
+        .heading {
+            font-size: 24rem;
+            margin-bottom: 45rem;
+        }
+        .login-btm {
+            margin-top: 30rem;
+            flex-direction: column;
+            gap: 20rem;
+            a {
+                text-align: center;
+                font-size: 12rem;
+            }
+        }
+        form {
+            label {
+                margin-bottom: 15rem;
+                p {
+                    font-size: 16rem;
+                    margin-bottom: 15rem;
+                }
+                input {
+                    height: 48rem;
+                    margin: 0;
+                }
+            }
+            a, button {
+                margin-top: 30rem;
+                font-size: 16rem;
+                padding: 8rem 30rem;
+            }
+        }
+    }
+    .preload-login {
+        .container {
+        }
+        p {
+            font-size: 20rem;
+        }
+    }
+
+    .dostup {
+
+        .container {
+        }
+        .dos-heading {
+            font-size: 24rem;
+            margin-bottom: 40rem;
+        }
+        .wrapper {
+        }
+        .item {
+            flex-direction: column;
+            align-items: flex-start;
+            .item__l {
+            }
+            .heading {
+                font-size: 16rem;
+                margin-bottom: 24rem;
+            }
+            .text {
+                font-size: 16rem;
+                margin-bottom: 24rem;
+            }
+            .item-r {
+                a {
+                    font-size: 16rem;
+                    padding: 8rem 30rem;
+                }
+            }
+        }
+    }
+    .main-single-kurs {
+        h1 {
+            font-size: 24rem;
+            margin-bottom: 40rem;
+        }
+        p {
+            font-size: 16rem;
+        }
+        a {
+            margin-top: 40rem;
+            font-size: 16rem;
+            padding: 8rem 32rem;
+        }
+        .container {
+        }
+    }
+
+    .single-kurs-item {
+        h1 {
+            font-size: 24rem;
+            margin-bottom: 40rem;
+        }
+        .container {
+        }
+        .wrapper {
+            gap: 20rem;
+        }
+        .item {
+            padding: 20rem;
+            .top {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .heading {
+                font-size: 16rem;
+                margin-bottom: 20rem;
+            }
+            .date {
+                font-size: 16rem;
+            }
+            .buttom {
+                margin-top: 20rem;
+            }
+            .issee {
+                bottom: 20rem;
+                right: 20rem;
+                font-size: 14rem;
+                padding: 6rem 20rem;
+            }
+        }
+    }
+    .zanyatie {
+        h1 {
+            font-size: 20rem;
+            margin-bottom: 20rem;
+        }
+        .container {
+        }
+        .heading {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 80rem;
+        }
+        .date {
+            font-size: 16rem;
+        }
+        .wrapper {
+        }
+        .top {
+            a {
+                font-size: 12rem;
+            }
+            p {
+                font-size: 10rem;
+            }
+        }
+        .video {
+            margin-top: 30rem;
+            position: relative;
+            svg {
+                width: 25rem;
+                height: 25rem;
+            }
+        }
+    }
+    .buy-store {
+        h1 {
+            font-size: 24rem;
+            margin-bottom: 40rem;
+        }
+        .container {
+        }
+        .wrapper {
+        }
+        .item {
+            flex-direction: column;
+        }
+        .item-heading {
+            h2 {
+                font-size: 16rem;
+                margin-bottom: 20rem;
+            }
+            p {
+                font-size: 16rem;
+            }
+        }
+        .item-period {
+            h2 {
+                font-size: 16rem;
+                margin-bottom: 20rem;
+            }
+            p {
+                font-size: 16rem;
+            }
+        }
+        .item-status {
+            align-items: flex-start;
+            h2 {
+                font-size: 16rem;
+                margin-bottom: 20rem;
+            }
+            p {
+                font-size: 14rem;
+                padding: 6rem 20rem;
+            }
+        }
+        .ending {
+            align-items: flex-start;
+            h2 {
+                font-size: 16rem;
+                margin-bottom: 20rem;
+            }
+            p {
+                font-size: 16rem;
+            }
+            h2, p {
+                text-align: left;
+            }
+        }
+    }
+    .profile-main {
+        h1 {
+            font-size: 24rem;
+            margin-bottom: 24rem;
+        }
+        .container {
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 20rem;
+        }
+        label {
+            p {
+                font-size: 14rem;
+            }
+            input {
+                height: 48rem;
+                font-size: 14rem;
+            }
+            &:nth-child(1) {
+                order: 1;
+            }
+            &:nth-child(2) {
+                order: 4;
+            }
+            &:nth-child(3) {
+                order: 2;
+                
+            }
+            &:nth-child(4) {
+                order: 5;
+            }
+            &:nth-child(5) {
+                order: 3;
+            }
+            &:nth-child(6) {
+                order: 6;
+            }
+            &:nth-child(8) {
+                order: 7;
+            }
+        }
+        .avatar {
+            order: 8;
+            width: 100%;
+            position: relative;
+            .l {
+                font-size: 16rem;
+                position: absolute;
+            }
+            .r {
+                flex-flow: column-reverse;
+                margin-top: 10rem;
+                width: 100%;
+            }
+            img {
+                margin-bottom: 30rem;
+            }
+            .row {
+                a {
+                    font-size: 16rem;
+                }
+            }
+        }
+        .save {
+            justify-content: center;
+            margin-top: 40rem;
+            a {
+                font-size: 16rem;
+                padding: 8rem 20rem;
+            }
+        }
     }
 }

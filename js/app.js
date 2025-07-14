@@ -75,9 +75,10 @@ const video = document.querySelector('.video');
 if(video) {
   const playBtn = video.querySelector('svg');
   const videoitself = video.querySelector('video');
-  video.onclick = ()=>{
+  playBtn.onclick = ()=>{
     playBtn.style.display = 'none';
     videoitself.play();
     videoitself.setAttribute('controls', true)
+    videoitself.setAttribute('controlsList', 'nodownload')
   }
 }

@@ -2128,7 +2128,8 @@ footer {
     .video {
         width: 100%;
         margin-top: 40rem;
-        img {
+        position: relative;
+        video {
             width: 100%;
         }
         svg {

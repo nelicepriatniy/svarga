@@ -31,6 +31,17 @@ body, html {
     border-radius: 24rem;
 }
 
+button {
+    transition: all .4s ease;
+    cursor: pointer;
+    border: 1px solid #fff;
+    &:hover {
+        background: #fff !important;
+        color: #203f30 !important;
+        border: 1px solid #203f30 !important;
+    }
+}
+
 .header {
     padding-top: 40rem;
     .container {
@@ -61,6 +72,28 @@ body, html {
         font-weight: 400;
         font-size: 24rem;
         color: #203f30;
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            width: 100%;
+            max-width: 0;
+            height: 1rem;
+            background: #203f30;
+            transition: all .4s ease;
+            position: absolute;
+            margin-top: 3rem;
+        }
+        &:hover {
+            &::after {
+                max-width: 100%;
+            }
+        }
+        &.active {
+            &::after {
+                max-width: 100%;
+            }
+        }
     }
     .header-nav {
         display: flex;
@@ -108,6 +141,12 @@ body, html {
         border-radius: 30rem;
         &.profile {
             margin-right: 40rem;
+        }
+        transition: all .4s ease;
+        &:hover {
+            background: #203f30;
+            color: #fff;
+            border: 1px solid #203f30;
         }
     }
 }
@@ -506,6 +545,14 @@ footer {
             border-radius: 30rem;
             background: #fff;
             padding: 20rem 70rem;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #fff;
+            &:hover {
+                background: #203f30 !important;
+                color: #fff !important;
+                border: 1px solid #fff !important;
+            }
         }
         svg {
             width: 40rem;
@@ -1284,6 +1331,14 @@ footer {
         background: #fff;
         width: fit-content;
         margin-top: 50rem;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #fff;
+            &:hover {
+                background: #203f30 !important;
+                color: #fff !important;
+                border: 1px solid #fff !important;
+            }
     }
     img {
         max-width: 696rem;
@@ -1394,6 +1449,14 @@ footer {
             display: flex;
             width: fit-content;
             margin-top: 80rem;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #fff;
+            &:hover {
+                background: #203f30 !important;
+                color: #fff !important;
+                border: 1px solid #fff !important;
+            }
         }
 
     }
@@ -1526,6 +1589,14 @@ footer {
             border: 1rem solid #fff;
             border-radius: 30rem;
             background: none;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #fff;
+            &:hover {
+                background: #203f30 !important;
+                color: #fff !important;
+                border: 1px solid #fff !important;
+            }
         }
     }
     img {
@@ -1550,6 +1621,14 @@ footer {
             padding: 20rem 30rem;
             position: relative;
             z-index: 2;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #fff;
+            &:hover {
+                background: #203f30 !important;
+                color: #fff !important;
+                border: 1px solid #fff !important;
+            }
         }
     }
     &.podpis {
@@ -1613,11 +1692,27 @@ footer {
             border: 1rem solid #fff;
             border-radius: 30rem;
             width: fit-content;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #fff;
+            &:hover {
+                background: #fff !important;
+                color: #203f30 !important;
+                border: 1px solid #203f30 !important;
+            }
         }
         &.btm {
             a {
                 background: #fff;
                 color: #203f30;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #fff;
+            &:hover {
+                background: #203f30 !important;
+                color: #fff !important;
+                border: 1px solid #fff !important;
+            }
             }
         }
 
@@ -1779,6 +1874,14 @@ footer {
         border-radius: 30rem;
         margin-top: 80rem;
         background: none;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #203f30;
+            &:hover {
+                background: #203f30 !important;
+                color: #fff !important;
+                border: 1px solid #fff !important;
+            }
     }
 }
 
@@ -1976,6 +2079,14 @@ footer {
             border-radius: 30rem;
             display: flex;
             width: fit-content;
+            transition: all .4s ease;
+            cursor: pointer;
+            border: 1px solid #203f30;
+            &:hover {
+                background: #203f30 !important;
+                color: #fff !important;
+                border: 1px solid #fff !important;
+            }
         }
     }
 }
